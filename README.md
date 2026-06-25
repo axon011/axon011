@@ -12,6 +12,7 @@
 
 - :man_student: M.Sc. student in **Artificial Intelligence** at BTU Cottbus-Senftenberg (thesis phase)
 - :briefcase: Previously **AI Engineer at Perinet GmbH** — backend, infrastructure & model benchmarking for an industrial-IoT AI platform
+- :bar_chart: Built a **sales & marketing performance automation** there — live LinkedIn + Google Analytics API data into a dashboard, cutting campaign reporting from a 48-hour manual lag to live daily
 - :hammer_and_wrench: Building **Agentic AI, RAG & LLM Evaluation** systems
 - :mortar_board: Thesis: **Content-Aware ViT Optimization on Edge Devices** — pruning, quantization, and benchmarking
 - :yellow_heart: Open to **AI Engineer** & **ML Engineer** roles in Germany / Remote EU
