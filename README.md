@@ -32,7 +32,8 @@
 | [**multi-agent-pipeline**](https://github.com/axon011/multi-agent-pipeline) | Multi-agent research and report generation: LangGraph state machines + CrewAI roles, served via FastAPI. |
 | [**llm-fine-tuning**](https://github.com/axon011/llm-fine-tuning) | QLoRA fine-tuned Qwen2-0.5B for structured JD extraction. Trained on 38 real job descriptions in ~3 min on an RTX 3050. |
 | [**llmops-dashboard**](https://github.com/axon011/llmops-dashboard) | Real-time LLM observability: cost, latency and quality metrics via Langfuse + React/TypeScript front end. |
-| [**resume-tailor**](https://github.com/axon011/resume-tailor) | LLM pipeline: JD in, ATS-optimized resume + cover letter out. 47 applications processed, humanizer strips AI tells. |
+| [**Multilingual-News-NLP-Pipeline**](https://github.com/axon011/Multilingual-News-NLP-Pipeline) | German news pipeline end to end: Whisper ASR, cross-lingual NER, fine-tuned event classification, translation and summarization — engineered to fit a single 4 GB GPU. |
+| [**job-search-toolkit**](https://github.com/axon011/job-search-toolkit) | Scans job boards + Telegram, filters roles and gates JDs before you spend time tailoring. Your data stays gitignored. |
 
 ---
 
@@ -65,11 +66,13 @@
 
 ## Numbers
 
-:chart_with_upwards_trend: **85 → 100** ATS score lift from my own resume-tailor pipeline
+:mag: **0.94** hit@5 and **0.96** citation presence on the RAG evaluation harness
 
-:page_facing_up: **47** applications processed through that pipeline
+:chart_with_upwards_trend: **+13%** F1 and **8.4×** faster inference on the multilingual news pipeline
 
-:brain: **38** real JDs used to QLoRA fine-tune a structured-extraction model
+:brain: **38** real JDs used to QLoRA fine-tune a structured-extraction model — 0.44% of parameters trained
+
+:electric_plug: **4 GB** — the GPU most of the above had to fit on
 
 :books: **Graph + hybrid retrieval** across rag-eval-system, graphrag-agent and graphrag-studio
 
@@ -79,7 +82,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=axon011&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=axon011&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=axon011&theme=tokyonight&hide_border=true" width="48%" />
 </p>
 
 <p align="center">
@@ -89,5 +92,5 @@
 ---
 
 <p align="center">
-  <i>Based in Germany | Available for AI Engineer roles</i>
+  <i>Based in Germany | Available for AI Engineer roles | Happy to relocate</i>
 </p>
