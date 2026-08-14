@@ -1,96 +1,241 @@
-<h1 align="center">Hi, I'm Aravind <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/></h1>
+<h1 align="center">Aravind Pradeep</h1>
 
 <p align="center">
-  <a href="https://aravindpradee.me">Portfolio</a> |
-  <a href="https://linkedin.com/in/aravind-pradeepmadathinal">LinkedIn</a> |
-  <a href="mailto:aravindpradeep001@gmail.com">Email</a>
+  <b>AI Engineer</b> — retrieval systems, agent pipelines, and the evaluation harnesses that keep them honest.
+</p>
+
+<p align="center">
+  <a href="https://aravindpradee.me"><img src="https://img.shields.io/badge/Portfolio-aravindpradee.me-1A568E?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/aravind-pradeepmadathinal"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:aravindpradeep001@gmail.com"><img src="https://img.shields.io/badge/Email-aravindpradeep001@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Based_in-Cottbus,_Germany-informational?style=flat-square" />
+  <img src="https://img.shields.io/badge/Open_to-AI%20%2F%20ML%20Engineer%20roles-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/Languages-EN%20C1%20·%20DE%20B1-lightgrey?style=flat-square" />
 </p>
 
 ---
 
-## About Me
+## Currently
 
-- :man_student: M.Sc. student in **Artificial Intelligence** at BTU Cottbus-Senftenberg (thesis phase)
-- :briefcase: Previously **AI Engineer at Perinet GmbH** — backend, infrastructure & model benchmarking for an industrial-IoT AI platform
-- :bar_chart: Built a **sales & marketing performance automation** there — live LinkedIn + Google Analytics API data into a dashboard, cutting campaign reporting from a 48-hour manual lag to live daily
-- :hammer_and_wrench: Building **Agentic AI, RAG & LLM Evaluation** systems
-- :mortar_board: Thesis: **Content-Aware ViT Optimization on Edge Devices** — pruning, quantization, and benchmarking
-- :yellow_heart: Open to **AI Engineer** & **ML Engineer** roles in Germany / Remote EU
-- :busts_in_silhouette: Projects: [My Portfolio](https://aravindpradee.me)
-- :speech_balloon: How to reach me: [aravindpradeep001@gmail.com](mailto:aravindpradeep001@gmail.com)
-- :zap: Fun fact: I built an LLM pipeline that improved my own job applications from ATS 85 to 100
+**Building** — GraphRAG pipelines and multi-agent systems, with the evaluation and observability layers underneath them.
+
+**Finishing** — M.Sc. Artificial Intelligence at BTU Cottbus-Senftenberg. Thesis: *Content-Aware ViT Optimization on Edge Devices* — cutting Vision Transformer compute while holding accuracy, with an explainability angle on what the model actually attends to.
+
+**Looking for** — AI Engineer / ML Engineer roles in Germany or remote EU. Happy to relocate.
 
 ---
 
-## What I Build
+## What I actually build
 
-| Project | Description |
-|---------|------------|
-| [**graphrag-agent**](https://github.com/axon011/graphrag-agent) | Knowledge-graph construction + graph-augmented retrieval. LLM entity/relation extraction, k-hop subgraph retrieval, grounded answers with citations. Pluggable Codex/Claude/Gemini CLI providers. |
-| [**graphrag-studio**](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, chat over k-hop subgraph retrieval with citations. Next.js + TypeScript front end, FastAPI back end. |
-| [**rag-eval-system**](https://github.com/axon011/rag-eval-system) | Hybrid RAG (BM25 + dense + RRF) with a RAGAs/MLflow evaluation harness and automated regression detection. |
-| [**multi-agent-pipeline**](https://github.com/axon011/multi-agent-pipeline) | Multi-agent research and report generation: LangGraph state machines + CrewAI roles, served via FastAPI. |
-| [**llm-fine-tuning**](https://github.com/axon011/llm-fine-tuning) | QLoRA fine-tuned Qwen2-0.5B for structured JD extraction. Trained on 38 real job descriptions in ~3 min on an RTX 3050. |
-| [**llmops-dashboard**](https://github.com/axon011/llmops-dashboard) | Real-time LLM observability: cost, latency and quality metrics via Langfuse + React/TypeScript front end. |
-| [**Multilingual-News-NLP-Pipeline**](https://github.com/axon011/Multilingual-News-NLP-Pipeline) | German news pipeline end to end: Whisper ASR, cross-lingual NER, fine-tuned event classification, translation and summarization — engineered to fit a single 4 GB GPU. |
-| [**job-search-toolkit**](https://github.com/axon011/job-search-toolkit) | Scans job boards + Telegram, filters roles and gates JDs before you spend time tailoring. Your data stays gitignored. |
+Most of my work sits on one pipeline: **get the right context in, keep the model honest, prove it with numbers.**
+
+```mermaid
+flowchart LR
+  A[Documents / streams] --> B[Hybrid + graph retrieval]
+  B --> C[Agent orchestration]
+  C --> D[Grounded, cited answers]
+  B -.measured by.-> E[Eval harness]
+  C -.traced by.-> F[Observability]
+  E -.regressions.-> B
+  F -.cost & latency.-> C
+```
+
+| Layer | Repos |
+|---|---|
+| Retrieval | [`rag-eval-system`](https://github.com/axon011/rag-eval-system) · [`graphrag-agent`](https://github.com/axon011/graphrag-agent) · [`graphrag-studio`](https://github.com/axon011/graphrag-studio) |
+| Agents | [`multi-agent-pipeline`](https://github.com/axon011/multi-agent-pipeline) · [`job-search-toolkit`](https://github.com/axon011/job-search-toolkit) |
+| Training | [`llm-fine-tuning`](https://github.com/axon011/llm-fine-tuning) · [`Multilingual-News-NLP-Pipeline`](https://github.com/axon011/Multilingual-News-NLP-Pipeline) |
+| Ops | [`llmops-dashboard`](https://github.com/axon011/llmops-dashboard) |
 
 ---
 
-## Languages and Tools
+## Selected projects
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
-</p>
+<sub>Eight repos, one line each — open the ones you care about.</sub>
 
-**AI/LLM:** LangGraph, LangChain, CrewAI, RAG, GraphRAG, Prompt Engineering, LLM-as-Judge, QLoRA Fine-Tuning
+<details>
+<summary><b>graphrag-agent</b> — knowledge graphs + k-hop retrieval, so answers follow relationships instead of vector similarity</summary>
 
-**Evaluation:** RAGAs, Langfuse, MLflow, LLM Observability, A/B Prompt Testing
+<br/>
 
-**Infrastructure:** Docker, Kubernetes, GitHub Actions, CI/CD, gRPC, MQTT
+`Python` · `networkx` · `Docker`
+
+Builds a typed, deduplicated knowledge graph from a corpus via LLM entity/relation extraction, then answers with **k-hop subgraph retrieval** — following explicit relationships rather than chunk-embedding similarity alone. Handles the multi-document, relationship-spanning questions flat RAG misses. LLM backend is pluggable across Claude, Codex and Gemini CLI providers, with a test suite over graph construction and retrieval.
+
+</details>
+
+<details>
+<summary><b>graphrag-studio</b> — the same engine as a product: upload docs, watch the graph build, chat with citations</summary>
+
+<br/>
+
+`Next.js` · `TypeScript` · `React` · `FastAPI`
+
+Upload documents and watch the knowledge graph build **incrementally in the UI** as they're processed, then chat over it with k-hop retrieval and answers cited back to source. Interactive force-graph visualization over a FastAPI backend wrapping the `graphrag-agent` package. Build progress streams to the front end — users see entities and relationships appear instead of waiting on a black-box batch job.
+
+</details>
+
+<details>
+<summary><b>rag-eval-system</b> — hybrid retrieval with an eval harness that alerts when quality regresses</summary>
+
+<br/>
+
+`Qdrant` · `RAGAs` · `MLflow` · `BM25` · `FastAPI`
+
+Dense embeddings + BM25 + Reciprocal Rank Fusion over a 50-topic corpus, reaching **0.94 hit@5 and 0.96 citation presence** on a 50-question evaluation set. RAGAs measures faithfulness, relevance and context recall; 50+ prompt experiments are tracked in MLflow with **regression alerts when retrieval quality drops below baseline**. Async embedding pre-computation and semantic caching keep eval runs fast enough to actually iterate on.
+
+</details>
+
+<details>
+<summary><b>multi-agent-pipeline</b> — Planner → Researcher → Writer, with Pydantic contracts between agents</summary>
+
+<br/>
+
+`LangGraph` · `CrewAI` · `FastAPI` · `Docker`
+
+A 3-agent pipeline built on LangGraph state machines with strict role boundaries. Inter-agent contracts are enforced by **Pydantic schema validation**, so every stage hands validated JSON downstream — handling multi-step reasoning a single LLM call can't. Produces 2,000+ word research reports with verifiable source citations. Async FastAPI, Docker, GitHub Actions CI/CD.
+
+</details>
+
+<details>
+<summary><b>llm-fine-tuning</b> — QLoRA on a 4 GB GPU: 100% JSON validity from 0.44% of the parameters</summary>
+
+<br/>
+
+`QLoRA` · `PEFT` · `Qwen2-0.5B` · `PyTorch`
+
+Fine-tuned Qwen2-0.5B (4-bit NF4, LoRA rank 16 / alpha 32 on attention projections) to extract structured JSON from job descriptions. **100% JSON validity and 70%+ entity-field accuracy** on a held-out set, trained in under 4 minutes on a 4 GB GPU. 2.16M adapter parameters — 0.44% of 496M total. Per-field evaluation exposed exactly where list-field F1 needed more data. Packaged as a reproducible pipeline: data prep → 4-bit training → JSON-schema validation of every output.
+
+</details>
+
+<details>
+<summary><b>llmops-dashboard</b> — self-hosted LLM observability, no external tracing SaaS</summary>
+
+<br/>
+
+`FastAPI` · `React` · `PostgreSQL` · `Docker`
+
+Every API call is traced to **your own PostgreSQL** with latency, token counts and per-model cost (GPT-4o, Claude, Gemini, DeepSeek) — plus a session explorer with prompt/response previews and a React + Recharts front end for token analytics and cost breakdowns. Multi-stage Docker build, GitHub Actions CI, 12 tests covering pricing, data parsing and API routes.
+
+</details>
+
+<details>
+<summary><b>Multilingual-News-NLP-Pipeline</b> — German news end to end: ASR → NER → classification → summarization</summary>
+
+<br/>
+
+`Whisper` · `Transformers` · `NER` · `FastAPI`
+
+Whisper ASR, cross-lingual NER, fine-tuned event classification, translation and summarization in one pipeline. **+13% F1 and 8.4× faster inference** — engineered to fit a single 4 GB GPU.
+
+</details>
+
+<details>
+<summary><b>job-search-toolkit</b> — scans boards + Telegram and gates JDs before you waste time tailoring</summary>
+
+<br/>
+
+`Python` · `LLM gating`
+
+Scans job boards and Telegram, filters roles against hard criteria, and gates job descriptions *before* any tailoring effort is spent. Dogfooded daily against my own search. Personal data stays gitignored.
+
+</details>
 
 ---
 
 ## Numbers
 
-:mag: **0.94** hit@5 and **0.96** citation presence on the RAG evaluation harness
-
-:chart_with_upwards_trend: **+13%** F1 and **8.4×** faster inference on the multilingual news pipeline
-
-:brain: **38** real JDs used to QLoRA fine-tune a structured-extraction model — 0.44% of parameters trained
-
-:electric_plug: **4 GB** — the GPU most of the above had to fit on
-
-:books: **Graph + hybrid retrieval** across rag-eval-system, graphrag-agent and graphrag-studio
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=axon011&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://streak-stats.demolab.com/?user=axon011&theme=tokyonight&hide_border=true" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=axon011&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="40%" />
-</p>
+| | |
+|---|---|
+| **0.94 / 0.96** | hit@5 and citation presence on the RAG evaluation harness |
+| **50+** | prompt experiments tracked with automated regression alerts |
+| **+13% F1 · 8.4×** | accuracy gain and inference speedup on the multilingual pipeline |
+| **100%** | JSON validity from a fine-tune trained on 0.44% of the model's parameters |
+| **48h → daily** | campaign reporting lag I removed at Perinet |
+| **4 GB** | the GPU most of the above had to fit on |
 
 ---
 
+## Experience
+
+**AI Engineer (Working Student)** · Perinet GmbH · Cottbus · *Jul 2024 – May 2026*
+Python and Go backend services wiring LLM workflows to live MQTT sensor streams, exposed as versioned async FastAPI endpoints; Docker/Kubernetes with GitHub Actions CI/CD. Led containerization for the AI Container umbrella project (PeriChat, MessageSense, PeriXplore) and owned the **model-benchmarking workstream** — retrieval speed, generation quality and trade-offs across model variants. Built a CEO-sponsored marketing-analytics pipeline pulling LinkedIn and GA4 data through MQTT into a dashboard, cutting reporting lag from ~48 hours to a daily refresh.
+
+**Software Engineer Trainee** · Cognizant · India · *Oct 2021 – May 2022*
+Mainframe applications (COBOL, JCL, DB2) in agile sprints across enterprise banking systems.
+
+---
+
+## Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+</p>
+
+**Agents & retrieval** — LangGraph · LangChain · CrewAI · RAG · GraphRAG · MCP · structured outputs (Pydantic) · tool use / function calling
+
+**Evaluation & LLMOps** — RAGAs · MLflow · Langfuse · LLM-as-Judge · A/B prompt evaluation · regression detection · guardrails
+
+**ML & NLP** — PyTorch · Hugging Face Transformers · QLoRA / PEFT · embeddings · NER · computer vision · explainable ML
+
+**Data & infra** — Qdrant · ChromaDB · OpenSearch · PostgreSQL · REST / gRPC · MQTT · Azure · AWS (S3, Bedrock, EC2)
+
+---
+
+## Research
+
+**M.Sc. Artificial Intelligence (Research Profile)** — BTU Cottbus-Senftenberg, thesis phase
+*Content-Aware ViT Optimization on Edge Devices* — pruning, quantization and benchmarking to reduce Vision Transformer compute without giving up accuracy. Focus areas: machine learning, computer vision, explainable ML, data mining.
+
+---
+
+## Recently shipped
+
+<!--AUTO:START-->
+| Repo | What changed | Language | Last push |
+|---|---|---|---|
+| [`rag-eval-system`](https://github.com/axon011/rag-eval-system) | Hybrid RAG system (BM25 + dense + RRF) with a RAGAs/MLflow evaluation h… | Python | 20d ago |
+| [`job-search-toolkit`](https://github.com/axon011/job-search-toolkit) | Automate a job search: scan boards + Telegram, filter roles, and gate J… | Python | 1mo ago |
+| [`llm-fine-tuning`](https://github.com/axon011/llm-fine-tuning) | QLoRA fine-tuned Qwen2-0.5B for structured JD extraction — trained on 3… | Python | 1mo ago |
+| [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | TypeScript | 1mo ago |
+| [`graphrag-agent`](https://github.com/axon011/graphrag-agent) | Knowledge-graph construction + graph-augmented retrieval (GraphRAG). LL… | Python | 1mo ago |
+
+<sub>Refreshed automatically · 14 Aug 2026</sub>
+<!--AUTO:END-->
+
+---
+
+## Activity
+
 <p align="center">
-  <i>Based in Germany | Available for AI Engineer roles | Happy to relocate</i>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=axon011&theme=tokyo-night&hide_border=true&area=true" width="92%" />
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axon011/axon011/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/axon011/axon011/output/snake-light.svg" />
+  <img alt="Contribution grid animation" src="https://raw.githubusercontent.com/axon011/axon011/output/snake-dark.svg" />
+</picture>
+
+---
+
+<p align="center">
+  <b>Open to AI Engineer & ML Engineer roles — Germany or remote EU.</b><br/>
+  <a href="mailto:aravindpradeep001@gmail.com">aravindpradeep001@gmail.com</a> ·
+  <a href="https://aravindpradee.me">aravindpradee.me</a> ·
+  <a href="https://linkedin.com/in/aravind-pradeepmadathinal">LinkedIn</a>
 </p>
