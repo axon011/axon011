@@ -208,13 +208,13 @@ Mainframe applications (COBOL, JCL, DB2) in agile sprints across enterprise bank
 <!--AUTO:START-->
 | Repo | What changed | Language | Last push |
 |---|---|---|---|
-| [`rag-eval-system`](https://github.com/axon011/rag-eval-system) | Hybrid RAG system (BM25 + dense + RRF) with a RAGAs/MLflow evaluation h… | Python | 20d ago |
+| [`rag-eval-system`](https://github.com/axon011/rag-eval-system) | Hybrid RAG system (BM25 + dense + RRF) with a RAGAs/MLflow evaluation h… | Python | 23d ago |
 | [`job-search-toolkit`](https://github.com/axon011/job-search-toolkit) | Automate a job search: scan boards + Telegram, filter roles, and gate J… | Python | 1mo ago |
 | [`llm-fine-tuning`](https://github.com/axon011/llm-fine-tuning) | QLoRA fine-tuned Qwen2-0.5B for structured JD extraction — trained on 3… | Python | 1mo ago |
 | [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | TypeScript | 1mo ago |
 | [`graphrag-agent`](https://github.com/axon011/graphrag-agent) | Knowledge-graph construction + graph-augmented retrieval (GraphRAG). LL… | Python | 1mo ago |
 
-<sub>Refreshed automatically · 14 Aug 2026</sub>
+<sub>Refreshed automatically · 17 Aug 2026</sub>
 <!--AUTO:END-->
 
 ---
