@@ -208,13 +208,13 @@ Mainframe applications (COBOL, JCL, DB2) in agile sprints across enterprise bank
 <!--AUTO:START-->
 | Repo | What changed | Language | Last push |
 |---|---|---|---|
-| [`GraphRag`](https://github.com/axon011/GraphRag) | GraphRAG Resume Matcher An AI-powered talent acquisition system that us… | Python | today |
-| [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | Python | today |
-| [`graphrag-agent`](https://github.com/axon011/graphrag-agent) | Knowledge-graph construction + graph-augmented retrieval (GraphRAG). LL… | Python | today |
-| [`german-tutor`](https://github.com/axon011/german-tutor) | — | TypeScript | today |
-| [`windfarm-planner`](https://github.com/axon011/windfarm-planner) | Weather-constrained scheduler for a 12-turbine wind-farm build: determi… | Python | 2d ago |
+| [`GraphRag`](https://github.com/axon011/GraphRag) | GraphRAG Resume Matcher An AI-powered talent acquisition system that us… | Python | 7d ago |
+| [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | Python | 7d ago |
+| [`graphrag-agent`](https://github.com/axon011/graphrag-agent) | Knowledge-graph construction + graph-augmented retrieval (GraphRAG). LL… | Python | 7d ago |
+| [`german-tutor`](https://github.com/axon011/german-tutor) | — | TypeScript | 8d ago |
+| [`windfarm-planner`](https://github.com/axon011/windfarm-planner) | Weather-constrained scheduler for a 12-turbine wind-farm build: determi… | Python | 9d ago |
 
-<sub>Refreshed automatically · 24 Aug 2026</sub>
+<sub>Refreshed automatically · 31 Aug 2026</sub>
 <!--AUTO:END-->
 
 ---
