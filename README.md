@@ -28,6 +28,15 @@
 
 ---
 
+## Publications
+
+**[Fusion: A Framework for Unified Sequential Token Adaptation in Vision Transformers](https://arxiv.org/abs/2607.02612)**
+Aravind Pradeep, Samira Nazari, Mahdi Taheri, Christian Herglotz · Accepted at DSD 2026 · arXiv:2607.02612 [cs.CV] · July 2026
+
+Staged token merging, early exit and pruning for adaptive ViT inference: 48% less inference energy and up to 4× lower calibration error on ImageNet-1k with DeiT-S. · [Talk](https://www.youtube.com/watch?v=fZLU2UiiV9k)
+
+---
+
 ## What I actually build
 
 Most of my work sits on one pipeline: **get the right context in, keep the model honest, prove it with numbers.**
@@ -46,18 +55,30 @@ flowchart LR
 | Layer | Repos |
 |---|---|
 | Retrieval | [`rag-eval-system`](https://github.com/axon011/rag-eval-system) · [`graphrag-agent`](https://github.com/axon011/graphrag-agent) · [`graphrag-studio`](https://github.com/axon011/graphrag-studio) |
-| Agents | [`multi-agent-pipeline`](https://github.com/axon011/multi-agent-pipeline) · [`job-search-toolkit`](https://github.com/axon011/job-search-toolkit) |
+| Agents | [`multi-agent-pipeline`](https://github.com/axon011/multi-agent-pipeline) · [`resume-tailor`](https://github.com/axon011/resume-tailor) |
 | Training | [`llm-fine-tuning`](https://github.com/axon011/llm-fine-tuning) · [`Multilingual-News-NLP-Pipeline`](https://github.com/axon011/Multilingual-News-NLP-Pipeline) |
 | Ops | [`llmops-dashboard`](https://github.com/axon011/llmops-dashboard) |
+| Optimization | [`windfarm-planner`](https://github.com/axon011/windfarm-planner) |
 
 ---
 
 ## Selected projects
 
-<sub>Eight repos, one line each — open the ones you care about.</sub>
+<sub>Nine repos, one line each — open the ones you care about.</sub>
 
 <details>
-<summary><b>graphrag-agent</b> — knowledge graphs + k-hop retrieval, so answers follow relationships instead of vector similarity</summary>
+<summary><b>windfarm-planner</b> · <i>featured</i> — weather-aware scheduler for a 12-turbine build: 48 campaigns × 20 years of hourly wind, priced as risk</summary>
+
+<br/>
+
+`Python` · `NumPy` · `pandas` · `Pydantic` · `FastAPI` · `Optimization`
+
+Crane lifts can't be paused, have wind limits, and must fit working hours. Scoring 48 candidate campaigns against 20 years of hourly wind data turns weather delay into a priced risk instead of a guess: **€5.59M → €3.56M expected cost, 189 → 64 days**, holding across 19 of 19 weather-years. The scheduling maths stays deterministic; the LLM handles only the human edges.
+
+</details>
+
+<details>
+<summary><b>graphrag-agent</b> — multi-hop answers by traversing a built knowledge graph, with citations</summary>
 
 <br/>
 
@@ -68,7 +89,7 @@ Builds a typed, deduplicated knowledge graph from a corpus via LLM entity/relati
 </details>
 
 <details>
-<summary><b>graphrag-studio</b> — the same engine as a product: upload docs, watch the graph build, chat with citations</summary>
+<summary><b>graphrag-studio</b> — full-stack app: upload docs, watch the graph build, chat over it</summary>
 
 <br/>
 
@@ -79,7 +100,7 @@ Upload documents and watch the knowledge graph build **incrementally in the UI**
 </details>
 
 <details>
-<summary><b>rag-eval-system</b> — hybrid retrieval with an eval harness that alerts when quality regresses</summary>
+<summary><b>rag-eval-system</b> — hybrid BM25 + dense + RRF retrieval with a RAGAs/MLflow regression harness</summary>
 
 <br/>
 
@@ -90,18 +111,18 @@ Dense embeddings + BM25 + Reciprocal Rank Fusion over a 50-topic corpus, reachin
 </details>
 
 <details>
-<summary><b>multi-agent-pipeline</b> — Planner → Researcher → Writer, with Pydantic contracts between agents</summary>
+<summary><b>multi-agent-pipeline</b> — Planner → Researcher → Writer → Critic on LangGraph, question to sourced report</summary>
 
 <br/>
 
 `LangGraph` · `CrewAI` · `FastAPI` · `Docker`
 
-A 3-agent pipeline built on LangGraph state machines with strict role boundaries. Inter-agent contracts are enforced by **Pydantic schema validation**, so every stage hands validated JSON downstream — handling multi-step reasoning a single LLM call can't. Produces 2,000+ word research reports with verifiable source citations. Async FastAPI, Docker, GitHub Actions CI/CD.
+A four-role pipeline built on LangGraph state machines with strict role boundaries. Inter-agent contracts are enforced by **Pydantic schema validation**, so every stage hands validated JSON downstream — handling multi-step reasoning a single LLM call can't. Produces 2,000+ word research reports with verifiable source citations. Async FastAPI, Docker, GitHub Actions CI/CD.
 
 </details>
 
 <details>
-<summary><b>llm-fine-tuning</b> — QLoRA on a 4 GB GPU: 100% JSON validity from 0.44% of the parameters</summary>
+<summary><b>llm-fine-tuning</b> — QLoRA Qwen2-0.5B extracting structured JSON from job descriptions</summary>
 
 <br/>
 
@@ -112,7 +133,7 @@ Fine-tuned Qwen2-0.5B (4-bit NF4, LoRA rank 16 / alpha 32 on attention projectio
 </details>
 
 <details>
-<summary><b>llmops-dashboard</b> — self-hosted LLM observability, no external tracing SaaS</summary>
+<summary><b>llmops-dashboard</b> — self-hosted tracing of latency, tokens and cost per model call</summary>
 
 <br/>
 
@@ -123,7 +144,7 @@ Every API call is traced to **your own PostgreSQL** with latency, token counts a
 </details>
 
 <details>
-<summary><b>Multilingual-News-NLP-Pipeline</b> — German news end to end: ASR → NER → classification → summarization</summary>
+<summary><b>Multilingual-News-NLP-Pipeline</b> — Whisper → NER → event classification → summary, on a 4 GB GPU</summary>
 
 <br/>
 
@@ -134,13 +155,13 @@ Whisper ASR, cross-lingual NER, fine-tuned event classification, translation and
 </details>
 
 <details>
-<summary><b>job-search-toolkit</b> — scans boards + Telegram and gates JDs before you waste time tailoring</summary>
+<summary><b>resume-tailor</b> — CLI that tailors résumé + cover letter and self-checks before the PDF</summary>
 
 <br/>
 
-`Python` · `LLM gating`
+`Python` · `LLM agents` · `LaTeX` · `CLI`
 
-Scans job boards and Telegram, filters roles against hard criteria, and gates job descriptions *before* any tailoring effort is spent. Dogfooded daily against my own search. Personal data stays gitignored.
+A multi-stage LLM pipeline that rewrites a résumé and cover letter against a specific job description, then audits its own output. ATS and regression checks run **before LaTeX compiles**, so a fabricated metric or a broken claim fails the build instead of reaching a recruiter. Dogfooded daily against my own search; personal data stays gitignored.
 
 </details>
 
@@ -150,6 +171,7 @@ Scans job boards and Telegram, filters roles against hard criteria, and gates jo
 
 | | |
 |---|---|
+| **€5.59M → €3.56M** | expected build cost on the wind-farm planner, 189 → 64 days |
 | **0.94 / 0.96** | hit@5 and citation presence on the RAG evaluation harness |
 | **50+** | prompt experiments tracked with automated regression alerts |
 | **+13% F1 · 8.4×** | accuracy gain and inference speedup on the multilingual pipeline |
@@ -199,7 +221,7 @@ Mainframe applications (COBOL, JCL, DB2) in agile sprints across enterprise bank
 ## Research
 
 **M.Sc. Artificial Intelligence (Research Profile)** — BTU Cottbus-Senftenberg, thesis phase
-*Content-Aware ViT Optimization on Edge Devices* — pruning, quantization and benchmarking to reduce Vision Transformer compute without giving up accuracy. Focus areas: machine learning, computer vision, explainable ML, data mining.
+*Content-Aware ViT Optimization on Edge Devices* — pruning, quantization and benchmarking to reduce Vision Transformer compute without giving up accuracy. Focus areas: machine learning, computer vision, explainable ML, data mining. First-author paper out of this line of work: [Fusion (arXiv:2607.02612)](https://arxiv.org/abs/2607.02612).
 
 ---
 
