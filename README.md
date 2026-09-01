@@ -106,7 +106,7 @@ Upload documents and watch the knowledge graph build **incrementally in the UI**
 
 `Qdrant` · `RAGAs` · `MLflow` · `BM25` · `FastAPI`
 
-Dense embeddings + BM25 + Reciprocal Rank Fusion over a 50-topic corpus, reaching **0.94 hit@5 and 0.96 citation presence** on a 50-question evaluation set. RAGAs measures faithfulness, relevance and context recall; 50+ prompt experiments are tracked in MLflow with **regression alerts when retrieval quality drops below baseline**. Async embedding pre-computation and semantic caching keep eval runs fast enough to actually iterate on.
+Dense embeddings + BM25 + Reciprocal Rank Fusion over a 50-topic corpus, reaching **0.94 hit@5 and 0.96 citation presence** on a 50-question evaluation set. RAGAs measures faithfulness, relevance and context recall; prompt and retrieval experiments are tracked in MLflow with **regression alerts when retrieval quality drops below baseline**. Async embedding pre-computation and semantic caching keep eval runs fast enough to actually iterate on.
 
 </details>
 
@@ -173,7 +173,6 @@ A multi-stage LLM pipeline that rewrites a résumé and cover letter against a s
 |---|---|
 | **€5.59M → €3.56M** | expected build cost on the wind-farm planner, 189 → 64 days |
 | **0.94 / 0.96** | hit@5 and citation presence on the RAG evaluation harness |
-| **50+** | prompt experiments tracked with automated regression alerts |
 | **+13% F1 · 8.4×** | accuracy gain and inference speedup on the multilingual pipeline |
 | **100%** | JSON validity from a fine-tune trained on 0.44% of the model's parameters |
 | **48h → daily** | campaign reporting lag I removed at Perinet |
