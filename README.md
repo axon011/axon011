@@ -55,7 +55,7 @@ flowchart LR
 | Layer | Repos |
 |---|---|
 | Retrieval | [`rag-eval-system`](https://github.com/axon011/rag-eval-system) · [`graphrag-agent`](https://github.com/axon011/graphrag-agent) · [`graphrag-studio`](https://github.com/axon011/graphrag-studio) |
-| Agents | [`multi-agent-pipeline`](https://github.com/axon011/multi-agent-pipeline) · [`resume-tailor`](https://github.com/axon011/resume-tailor) |
+| Agents | [`multi-agent-pipeline`](https://github.com/axon011/multi-agent-pipeline) · `resume-tailor` (private) |
 | Training | [`llm-fine-tuning`](https://github.com/axon011/llm-fine-tuning) · [`Multilingual-News-NLP-Pipeline`](https://github.com/axon011/Multilingual-News-NLP-Pipeline) |
 | Ops | [`llmops-dashboard`](https://github.com/axon011/llmops-dashboard) |
 | Optimization | [`windfarm-planner`](https://github.com/axon011/windfarm-planner) |
