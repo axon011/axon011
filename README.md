@@ -20,11 +20,9 @@
 
 ## Currently
 
-**Building** — GraphRAG pipelines and multi-agent systems, with the evaluation and observability layers underneath them.
-
-**Finishing** — M.Sc. Artificial Intelligence at BTU Cottbus-Senftenberg. Thesis: *Content-Aware ViT Optimization on Edge Devices* — cutting Vision Transformer compute while holding accuracy, with an explainability angle on what the model actually attends to.
-
-**Looking for** — AI Engineer / ML Engineer roles in Germany or remote EU. Happy to relocate.
+| Building | Finishing | Looking for |
+|---|---|---|
+| GraphRAG pipelines and multi-agent systems, with the eval and observability layers underneath. | M.Sc. AI at BTU Cottbus-Senftenberg. Thesis: *Content-Aware ViT Optimization on Edge Devices*. | AI Engineer / ML Engineer roles in Germany or remote EU. Happy to relocate. |
 
 ---
 
