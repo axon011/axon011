@@ -57,12 +57,13 @@ flowchart LR
 | Training | [`llm-fine-tuning`](https://github.com/axon011/llm-fine-tuning) · [`Multilingual-News-NLP-Pipeline`](https://github.com/axon011/Multilingual-News-NLP-Pipeline) |
 | Ops | [`llmops-dashboard`](https://github.com/axon011/llmops-dashboard) |
 | Optimization | [`windfarm-planner`](https://github.com/axon011/windfarm-planner) |
+| Live apps | [`german-tutor`](https://github.com/axon011/german-tutor) → [tutor.aravindpradee.me](https://tutor.aravindpradee.me) |
 
 ---
 
 ## Selected projects
 
-<sub>Nine repos, one line each — open the ones you care about.</sub>
+<sub>Ten repos, one line each — open the ones you care about.</sub>
 
 <details>
 <summary><b>windfarm-planner</b> · <i>featured</i> — weather-aware scheduler for a 12-turbine build: 48 campaigns × 20 years of hourly wind, priced as risk</summary>
@@ -160,6 +161,17 @@ Whisper ASR, cross-lingual NER, fine-tuned event classification, translation and
 `Python` · `LLM agents` · `LaTeX` · `CLI`
 
 A multi-stage LLM pipeline that rewrites a résumé and cover letter against a specific job description, then audits its own output. ATS and regression checks run **before LaTeX compiles**, so a fabricated metric or a broken claim fails the build instead of reaching a recruiter. Dogfooded daily against my own search; personal data stays gitignored.
+
+</details>
+
+<details>
+<summary><b>german-tutor</b> · <i>live at <a href="https://tutor.aravindpradee.me">tutor.aravindpradee.me</a></i> — AI German tutor that builds your curriculum from your own mistakes</summary>
+
+<br/>
+
+`Next.js` · `TypeScript` · `SSE streaming` · `Zod` · `Tailwind`
+
+Every error made in live conversation is logged and turned into drills. Two agents per turn: the tutor's reply **streams immediately** while a parallel corrector annotates exact error spans (Zod-validated JSON). 32 guided CEFR lessons (A1→B2) plus a 40-rule grammar reference, and the "practice today" recommender is a decay-weighted formula — explainable, free, and testable — not an LLM. All model calls go through one provider seam, so swapping backends is one env var.
 
 </details>
 
