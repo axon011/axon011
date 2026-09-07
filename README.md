@@ -239,13 +239,13 @@ Mainframe applications (COBOL, JCL, DB2) in agile sprints across enterprise bank
 <!--AUTO:START-->
 | Repo | What changed | Language | Last push |
 |---|---|---|---|
-| [`GraphRag`](https://github.com/axon011/GraphRag) | GraphRAG Resume Matcher An AI-powered talent acquisition system that us… | Python | 7d ago |
-| [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | Python | 7d ago |
-| [`graphrag-agent`](https://github.com/axon011/graphrag-agent) | Knowledge-graph construction + graph-augmented retrieval (GraphRAG). LL… | Python | 7d ago |
-| [`german-tutor`](https://github.com/axon011/german-tutor) | — | TypeScript | 8d ago |
-| [`windfarm-planner`](https://github.com/axon011/windfarm-planner) | Weather-constrained scheduler for a 12-turbine wind-farm build: determi… | Python | 9d ago |
+| [`job-search-toolkit`](https://github.com/axon011/job-search-toolkit) | Automate a job search: scan boards + Telegram, filter roles, and gate J… | Python | today |
+| [`rag-eval-system`](https://github.com/axon011/rag-eval-system) | Hybrid RAG system (BM25 + dense + RRF) with a RAGAs/MLflow evaluation h… | Python | 3d ago |
+| [`GraphRag`](https://github.com/axon011/GraphRag) | GraphRAG Resume Matcher An AI-powered talent acquisition system that us… | Python | 4d ago |
+| [`fusion-vit`](https://github.com/axon011/fusion-vit) | FUSION: adaptive token processing for Vision Transformers - model weigh… | Jupyter Notebook | 5d ago |
+| [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | Python | 14d ago |
 
-<sub>Refreshed automatically · 31 Aug 2026</sub>
+<sub>Refreshed automatically · 07 Sep 2026</sub>
 <!--AUTO:END-->
 
 ---
