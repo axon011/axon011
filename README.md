@@ -239,13 +239,13 @@ Mainframe applications (COBOL, JCL, DB2) in agile sprints across enterprise bank
 <!--AUTO:START-->
 | Repo | What changed | Language | Last push |
 |---|---|---|---|
-| [`job-search-toolkit`](https://github.com/axon011/job-search-toolkit) | Automate a job search: scan boards + Telegram, filter roles, and gate J… | Python | today |
-| [`rag-eval-system`](https://github.com/axon011/rag-eval-system) | Hybrid RAG system (BM25 + dense + RRF) with a RAGAs/MLflow evaluation h… | Python | 3d ago |
-| [`GraphRag`](https://github.com/axon011/GraphRag) | GraphRAG Resume Matcher An AI-powered talent acquisition system that us… | Python | 4d ago |
-| [`fusion-vit`](https://github.com/axon011/fusion-vit) | FUSION: adaptive token processing for Vision Transformers - model weigh… | Jupyter Notebook | 5d ago |
-| [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | Python | 14d ago |
+| [`resume-tailor-public`](https://github.com/axon011/resume-tailor-public) | LLM resume tailoring with three gates that refuse to compile unbacked c… | Python | 3d ago |
+| [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | TypeScript | 6d ago |
+| [`job-search-toolkit`](https://github.com/axon011/job-search-toolkit) | Automate a job search: scan boards + Telegram, filter roles, and gate J… | Python | 6d ago |
+| [`rag-eval-system`](https://github.com/axon011/rag-eval-system) | Hybrid RAG system (BM25 + dense + RRF) with a RAGAs/MLflow evaluation h… | Python | 10d ago |
+| [`GraphRag`](https://github.com/axon011/GraphRag) | GraphRAG Resume Matcher An AI-powered talent acquisition system that us… | Python | 11d ago |
 
-<sub>Refreshed automatically · 07 Sep 2026</sub>
+<sub>Refreshed automatically · 14 Sep 2026</sub>
 <!--AUTO:END-->
 
 ---
