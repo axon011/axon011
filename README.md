@@ -239,13 +239,13 @@ Mainframe applications (COBOL, JCL, DB2) in agile sprints across enterprise bank
 <!--AUTO:START-->
 | Repo | What changed | Language | Last push |
 |---|---|---|---|
-| [`multi-agent-pipeline`](https://github.com/axon011/multi-agent-pipeline) | Multi-agent research and report generation system using LangGraph state… | Python | 10d ago |
-| [`resume-tailor-public`](https://github.com/axon011/resume-tailor-public) | LLM resume tailoring with three gates that refuse to compile unbacked c… | Python | 17d ago |
-| [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | TypeScript | 20d ago |
-| [`job-search-toolkit`](https://github.com/axon011/job-search-toolkit) | Automate a job search: scan boards + Telegram, filter roles, and gate J… | Python | 20d ago |
-| [`rag-eval-system`](https://github.com/axon011/rag-eval-system) | Hybrid RAG system (BM25 + dense + RRF) with a RAGAs/MLflow evaluation h… | Python | 24d ago |
+| [`german-tutor`](https://github.com/axon011/german-tutor) | — | TypeScript | today |
+| [`multi-agent-pipeline`](https://github.com/axon011/multi-agent-pipeline) | Multi-agent research and report generation system using LangGraph state… | Python | 17d ago |
+| [`resume-tailor-public`](https://github.com/axon011/resume-tailor-public) | LLM resume tailoring with three gates that refuse to compile unbacked c… | Python | 24d ago |
+| [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | TypeScript | 27d ago |
+| [`job-search-toolkit`](https://github.com/axon011/job-search-toolkit) | Automate a job search: scan boards + Telegram, filter roles, and gate J… | Python | 27d ago |
 
-<sub>Refreshed automatically · 28 Sep 2026</sub>
+<sub>Refreshed automatically · 05 Oct 2026</sub>
 <!--AUTO:END-->
 
 ---
