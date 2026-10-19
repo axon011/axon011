@@ -239,13 +239,13 @@ Mainframe applications (COBOL, JCL, DB2) in agile sprints across enterprise bank
 <!--AUTO:START-->
 | Repo | What changed | Language | Last push |
 |---|---|---|---|
-| [`german-tutor`](https://github.com/axon011/german-tutor) | — | TypeScript | today |
-| [`multi-agent-pipeline`](https://github.com/axon011/multi-agent-pipeline) | Multi-agent research and report generation system using LangGraph state… | Python | 25d ago |
+| [`german-tutor`](https://github.com/axon011/german-tutor) | — | TypeScript | 7d ago |
+| [`multi-agent-pipeline`](https://github.com/axon011/multi-agent-pipeline) | Multi-agent research and report generation system using LangGraph state… | Python | 1mo ago |
 | [`resume-tailor-public`](https://github.com/axon011/resume-tailor-public) | LLM resume tailoring with three gates that refuse to compile unbacked c… | Python | 1mo ago |
 | [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | TypeScript | 1mo ago |
 | [`job-search-toolkit`](https://github.com/axon011/job-search-toolkit) | Automate a job search: scan boards + Telegram, filter roles, and gate J… | Python | 1mo ago |
 
-<sub>Refreshed automatically · 12 Oct 2026</sub>
+<sub>Refreshed automatically · 19 Oct 2026</sub>
 <!--AUTO:END-->
 
 ---
