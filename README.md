@@ -239,13 +239,13 @@ Mainframe applications (COBOL, JCL, DB2) in agile sprints across enterprise bank
 <!--AUTO:START-->
 | Repo | What changed | Language | Last push |
 |---|---|---|---|
-| [`multi-agent-pipeline`](https://github.com/axon011/multi-agent-pipeline) | Multi-agent research and report generation system using LangGraph state… | Python | yesterday |
-| [`llm-gateway`](https://github.com/axon011/llm-gateway) | Async FastAPI LLM gateway with Langfuse tracing, per-call cost tracking… | Python | 5d ago |
-| [`german-tutor`](https://github.com/axon011/german-tutor) | — | TypeScript | 21d ago |
+| [`multi-agent-pipeline`](https://github.com/axon011/multi-agent-pipeline) | Multi-agent research and report generation system using LangGraph state… | Python | 8d ago |
+| [`llm-gateway`](https://github.com/axon011/llm-gateway) | Async FastAPI LLM gateway with Langfuse tracing, per-call cost tracking… | Python | 12d ago |
+| [`german-tutor`](https://github.com/axon011/german-tutor) | — | TypeScript | 28d ago |
 | [`resume-tailor-public`](https://github.com/axon011/resume-tailor-public) | LLM resume tailoring with three gates that refuse to compile unbacked c… | Python | 1mo ago |
-| [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | TypeScript | 1mo ago |
+| [`graphrag-studio`](https://github.com/axon011/graphrag-studio) | Full-stack GraphRAG app: upload docs, watch a knowledge graph build, ch… | TypeScript | 2mo ago |
 
-<sub>Refreshed automatically · 02 Nov 2026</sub>
+<sub>Refreshed automatically · 09 Nov 2026</sub>
 <!--AUTO:END-->
 
 ---
